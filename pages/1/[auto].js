@@ -13,7 +13,7 @@ const auto = () => {
     // hack to close the current window.  Won't work on all browsers, but works for chrome as of 6/24/2021
     window.setTimeout(() => {
         window.open('', '_parent', '').close();
-    }, 1000)
+    }, 10000)
 
     return null
 }
